@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chocolates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 20px;
+}
+
+.chocolate {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chocolate label {
+    display: block;
+}
+
+#totalPrice {
+    font-weight: bold;
+}
